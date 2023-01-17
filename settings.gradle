@@ -1,0 +1,26 @@
+pluginManagement {
+    includeBuild("build-logic")
+    repositories {
+        gradlePluginPortal()
+        google()
+        mavenCentral()
+    }
+}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
+rootProject.name = "AndroidBetaApp"
+include ':app'
+include ':feature'
+include ':feature:beer'
+include ':benchmark'
+include ':core'
+include ':core:domain'
+include ':core:datastore'
+include ':core:model'
+include ':core:network'
+include ':core:data'
