@@ -1,5 +1,5 @@
 # Android Architecture App
-This repo is a representation of Android Architecture representation
+This repo is a sample for of Android Architecture components
 
 
 ## Tech Stack
@@ -8,5 +8,5 @@ This repo is a representation of Android Architecture representation
 - flow
 - Hilt
 - Retrofit
-- MVVM
+- Clean architecture
 
